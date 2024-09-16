@@ -1,0 +1,26 @@
+.card-wrapper{
+    height: 319px;
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.card-wrapper img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    width: 50%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+.contact-wrapper{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.contact-wrapper ul{
+    list-style: none;
+}

@@ -1,0 +1,34 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: var(--secondaryColor);
+    gap: 30px;
+    max-width: 998px;
+    line-height: 2.5rem;
+    align-items: baseline;
+}
+.footer-wrapper ul li{
+    list-style: none;
+    color: #666962;
+    font-weight: 300;
+}
+.socailMedia{
+    display: flex;
+    gap: 40px;
+}
+.background{
+    background-color: var(--secondaryColor);
+    padding-top: 20px;
+}
+.footer-wrapper h1{
+    font-size: 20px;
+}
+p{
+    color: #666962;
+}
+.socailMedia i{
+    font-size: 20px;
+    cursor: pointer;
+}
