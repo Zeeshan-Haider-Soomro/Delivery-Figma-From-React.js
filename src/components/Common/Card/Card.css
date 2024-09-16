@@ -7,12 +7,17 @@
     border-radius: 1rem;
     padding: 2rem 1.5rem;
     text-align: center;
-    background-color: #fff;
     row-gap: 1rem;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    background-color: #ffffff;
+}
+.card-wrapper:hover{
     cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 24px;
 }
 .card-wrapper img{
     height: 150px;
