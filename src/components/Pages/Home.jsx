@@ -10,7 +10,7 @@ import Footer from '../Footer/Footer'
 const Home = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <Banner data={BannerText1}/>
       <Banner isRotate data={BannerText2}/>
       <Banner data={BannerText3}/>
